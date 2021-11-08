@@ -1,0 +1,16 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stupid Coaching</title>
+</head>
+<body>
+  <h1>Stupid Coaching</h1>
+  <p class="chat"><%= params[:question] %></p>
+  <p class="name">-You</p>
+  <p class="chat"><%= @answer %></p>
+  <p class="name">-Your coach</p>
+  <%= link_to "Ask a new question", ask_path %>
+</body>
+</html>
